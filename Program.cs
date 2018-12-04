@@ -7,6 +7,8 @@ namespace adventOfCode
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            day2 day2Stuff = new day2();
+            day2Stuff.DoAThing();
         }
     }
 }

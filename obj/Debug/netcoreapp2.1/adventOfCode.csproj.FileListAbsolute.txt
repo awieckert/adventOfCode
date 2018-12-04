@@ -1,0 +1,11 @@
+C:\Users\AdamWieckert\Documents\adventOfCode\bin\Debug\netcoreapp2.1\adventOfCode.deps.json
+C:\Users\AdamWieckert\Documents\adventOfCode\bin\Debug\netcoreapp2.1\adventOfCode.runtimeconfig.json
+C:\Users\AdamWieckert\Documents\adventOfCode\bin\Debug\netcoreapp2.1\adventOfCode.runtimeconfig.dev.json
+C:\Users\AdamWieckert\Documents\adventOfCode\bin\Debug\netcoreapp2.1\adventOfCode.dll
+C:\Users\AdamWieckert\Documents\adventOfCode\bin\Debug\netcoreapp2.1\adventOfCode.pdb
+C:\Users\AdamWieckert\Documents\adventOfCode\obj\Debug\netcoreapp2.1\adventOfCode.csprojAssemblyReference.cache
+C:\Users\AdamWieckert\Documents\adventOfCode\obj\Debug\netcoreapp2.1\adventOfCode.csproj.CoreCompileInputs.cache
+C:\Users\AdamWieckert\Documents\adventOfCode\obj\Debug\netcoreapp2.1\adventOfCode.AssemblyInfoInputs.cache
+C:\Users\AdamWieckert\Documents\adventOfCode\obj\Debug\netcoreapp2.1\adventOfCode.AssemblyInfo.cs
+C:\Users\AdamWieckert\Documents\adventOfCode\obj\Debug\netcoreapp2.1\adventOfCode.dll
+C:\Users\AdamWieckert\Documents\adventOfCode\obj\Debug\netcoreapp2.1\adventOfCode.pdb
