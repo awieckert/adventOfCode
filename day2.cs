@@ -15,6 +15,43 @@ namespace adventOfCode
             ListOIds = File.ReadAllLines("C:\\Users\\AdamWieckert\\Documents\\QA\\day2.txt");
         }
 
+        public string DoASecondThing()
+        {
+            List<char> letterList = new List<char>();
+
+            for (var i = 0; i < ListOIds.Count(); i++)
+            {
+                var wordList = ListOIds.ToList();
+                var currentWord = wordList[i];
+                var wordToReturn = "";
+
+                for (var j = i + 1; j < ListOIds.Count(); j++)
+                {
+                    var wordToCompare = wordList[j];
+
+                    for (var n = 0; n < wordList[i].Length; n++)
+                    {
+                        if (currentWord[n] != wordToCompare[n])
+                        {
+                            letterList.Add(currentWord[n]);
+                            letterList.Add(wordToCompare[n]);
+                            wordToReturn = currentWord.Remove(n, 1);
+                        }
+                    }
+
+                    if (letterList.Count == 2)
+                    {
+                        return wordToReturn;
+                    }
+                    else
+                    {
+                        letterList.Clear();
+                    }
+                }
+            }
+            return null;
+        }
+
         public int DoAThing()
         {
             var doubles = 0;
